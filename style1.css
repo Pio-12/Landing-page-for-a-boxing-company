@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo-img {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 10px; /* Space between logo and text */
+}
+
+header h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin-left: 60%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('WhatsApp\ Image\ 2024-10-02\ at\ 10.38.37\ PM.jpeg') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+.hero h2 span {
+    color: #e74c3c;
+}
+
+main {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.text-container {
+    margin-left: 20px;
+}
+
+.text-container h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    margin-bottom: 20px;
+    color: #777;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.coaches {
+    text-align: center;
+}
+
+.coach-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.coach {
+    text-align: center;
+    width: 30%;
+}
+
+.coach img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.coach h4 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer p {
+    font-size: 20px;
+    margin-bottom: 20px;
+   
+    font-family: Saira Condensed;
+    font-weight: 500;
+   
+ 
+}
+ p span {
+    color: #e74c3c;
+}
+
+.social-media a {
+    color: #777;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.icons img {
+    width: 24px;
+    padding-top: 3%;
+    
+}
